@@ -3,7 +3,7 @@ from pathlib import Path
 import os
 import pandas as pd
 
-DATALAKE_PATH = '/home/omarcocaja/Área de trabalho/portfolio/datalake'
+DATALAKE_PATH = ''
 
 BASE_DIR = Path.cwd()
 

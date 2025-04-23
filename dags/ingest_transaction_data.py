@@ -14,7 +14,7 @@ builder = pyspark.sql.SparkSession.builder.appName("Projeto_1") \
 
 spark = configure_spark_with_delta_pip(builder).getOrCreate()
 
-DATALAKE_PATH = '/home/omarcocaja/Área de trabalho/portfolio/datalake'
+DATALAKE_PATH = ''
 
 with DAG(
     dag_id="INGEST_TRANSACTION_DATA",
