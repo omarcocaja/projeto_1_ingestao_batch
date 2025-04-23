@@ -1,5 +1,9 @@
-from variable_utils import *
+from datetime import datetime, timedelta
+from pathlib import Path
 import os
+import pandas as pd
+
+DATALAKE_PATH = '/home/omarcocaja/Área de trabalho/portfolio/datalake'
 
 BASE_DIR = Path.cwd()
 
